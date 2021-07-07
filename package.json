@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "test": "ng test",
     "dev:ssr": "ng run portfolio:serve-ssr",
     "serve:ssr": "node dist/portfolio/server/main.js",
-    "build:ssr": "ng build && ng run portfolio:server",
+    "build:ssr": "ng build --baseHref=/ && ng run portfolio:server:production",
     "prerender": "ng run portfolio:prerender"
   },
   "private": true,
