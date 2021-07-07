@@ -1,0 +1,99 @@
+{
+  "configVersion": 1,
+  "timestamp": 1625639079218,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/266.d6c9221e10d56c6e9b0d.js",
+        "/801.0f5bcce1234bb066a4cb.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.9bce1b9d7e7aced425d8.js",
+        "/manifest.webmanifest",
+        "/polyfills.a52bab938f90ceafd568.js",
+        "/runtime.6561d66a15fb4511d569.js",
+        "/styles.cf8c2cf3f83f8b8e9d91.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/files/Fadhilah Rahman Resume.pdf",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/icon.png",
+        "/assets/img/profile-pict-min.JPG",
+        "/assets/styles/scss/_animations.scss",
+        "/assets/styles/scss/_base-style.scss",
+        "/assets/styles/scss/_colors-variable.scss",
+        "/assets/styles/styles.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/266.d6c9221e10d56c6e9b0d.js": "ebd077ce63692368301abb3d4845191b19b9ac82",
+    "/801.0f5bcce1234bb066a4cb.js": "01203c3ae483b862c6616895b64989f52c64050b",
+    "/assets/files/Fadhilah Rahman Resume.pdf": "2dafb289c7566de1bacfe085aa8424a828daeff7",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/img/icon.png": "e73c2c1788a1bf8a1acbc35a9a1cbc5a64c31553",
+    "/assets/img/profile-pict-min.JPG": "3ce93f8e64953a69036b43ca93f550d458e9af36",
+    "/assets/styles/scss/_animations.scss": "de7a1a08dbd80163f8d858b7eff311d1a1fa9f9c",
+    "/assets/styles/scss/_base-style.scss": "fd3e0d447abd3ba8d01db815755f58506e38b165",
+    "/assets/styles/scss/_colors-variable.scss": "2db7261a03583c4896ea4ac8d7136bc641717612",
+    "/assets/styles/styles.scss": "54e3668c8a1a2d8fadcdda2c69777d01a3abc433",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "c5369b11106baa3be27d75a16ccecc5767ca736c",
+    "/main.9bce1b9d7e7aced425d8.js": "18a335c90ed76fe2ca7907c1e5a733d5aa2b2457",
+    "/manifest.webmanifest": "e14484a4f652e2f158ec8045c44ef1b6d61e9f2d",
+    "/polyfills.a52bab938f90ceafd568.js": "5f229e8ae39b6666245e1b6fc46147dfe6929af8",
+    "/runtime.6561d66a15fb4511d569.js": "c918bd044e876110b22bed8c4ebcea2e0ea236a1",
+    "/styles.cf8c2cf3f83f8b8e9d91.css": "9821c0e2cc15a3c2414deab65ec6cdb2b7d1294d"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

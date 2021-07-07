@@ -1,9 +1,0 @@
-{
-  "name": "functions",
-  "engines": {
-    "node": "8"
-  },
-  "scripts": {
-    "build": "node cp-angular && tsc"
-  }
-}
