@@ -1,0 +1,18 @@
+@import "base-style";
+
+.effect-2 {
+  left: 3%;
+  bottom: 20%;
+  width: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.effect-2 span {
+  height: 3px;
+  width: 3px;
+  background-color: #ff9c07;
+  margin: 0 3px 8px;
+  animation: topBounce 3s ease-in-out infinite;
+}

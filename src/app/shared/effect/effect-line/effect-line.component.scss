@@ -1,0 +1,19 @@
+@import "base-style";
+
+.effect-5 {
+  height: 50px;
+  width: 50px;
+  right: 10%;
+  top: 30%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: spin 10s linear infinite;
+}
+
+.effect-5 span {
+  width: 1px;
+  background-color: #4dd0e1;
+  // height: 100%;
+}

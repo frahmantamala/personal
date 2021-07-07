@@ -1,0 +1,65 @@
+@import "base-style";
+
+.header {
+  padding: 20px 15px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.header .logo a {
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  height: 40px;
+  width: 40px;
+  font-size: 24;
+  color: $skin-color;
+  border-radius: 50px;
+  border: 2px solid $skin-color;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header .humberger-btn {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50px;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.header .humberger-btn::after {
+  border-radius: 50px;
+}
+
+.header .humberger-btn span {
+  display: block;
+  height: 2px;
+  width: 16px;
+  background-color: $bg-black-900;
+  position: relative;
+}
+
+.header .humberger-btn span::before,
+.header .humberger-btn span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $bg-black-900;
+}
+
+.header .humberger-btn span::before {
+  top: -6px;
+}
+
+.header .humberger-btn span::after {
+  top: 6px;
+}
